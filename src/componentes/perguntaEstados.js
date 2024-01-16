@@ -57,7 +57,7 @@ export default function PerguntaEstados(props) {
           <p>Pergunta {props.index + 1}</p>
           <img src={quase} />
         </PerguntaFechada>
-        ;
+        
       </>
     );
   } else if (estados === 5) {
@@ -67,7 +67,7 @@ export default function PerguntaEstados(props) {
           <p>Pergunta {props.index + 1}</p>
           <img src={acerto} />
         </PerguntaFechada>
-        ;
+        
       </>
     );
   }
